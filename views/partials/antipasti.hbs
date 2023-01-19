@@ -1,0 +1,33 @@
+  
+<div class="menuelement">
+    <button type="button" onclick="funzioneantipasti()" class="btn btn-primary btn-lg">antipasti</button>
+
+
+    <div id="antipasti" style="display: none;" >
+  
+        {{#each antip}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+            </div>
+                                        
+            <span>
+                <span> <h6> {{ingredienti}} </h6></span>
+            </span>    
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                    
+    </div>
+
+</div>

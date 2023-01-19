@@ -1,0 +1,39 @@
+  
+<div class="menuelimina">
+    <button type="button" onclick="funzionebevande()" class="btn btn-primary btn-lg">bevande</button>
+
+
+    <div id="bevande" style="display: none;" >
+  
+        <form action="" method="post">
+        {{#each bevandep}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+
+                <span>
+            <input type="checkbox" name="piatto" value="Elimina">
+            <label for="piatto"> elimina {{nome}}</label>
+                </span>
+            </div>
+                                        
+           
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                  <button type="submit" name="bevandeelimina">elimina bevande</button>
+        </form>
+                    
+    </div>
+
+</div>

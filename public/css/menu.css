@@ -1,0 +1,39 @@
+
+#menutitle{
+
+    background: rgb(32, 125, 206);
+    padding: 2cm;
+    border-radius: 30cm;
+    color: white;
+}
+.menuelement{    
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;    
+}
+.menu{
+    padding: 5em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.piatto{
+    padding-top: 3pc;    
+    
+    
+}
+
+.sovramenu{  
+   
+    background: burlywood;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.bottonecart{
+
+    background: #4d4;
+
+}

@@ -1,0 +1,43 @@
+  
+<div class="menuelimina">
+    <button type="button" onclick="funzionedolci()" class="btn btn-primary btn-lg">dolci</button>
+
+
+    <div id="dolci" style="display: none;" >
+
+        <form action="" method="post">
+  
+        {{#each dolcip}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+            </div>
+                                        
+            <span>
+                <span> <h6> {{ingredienti}} </h6></span>
+
+                <span>
+            <input type="checkbox" name="piatto" value="Elimina">
+            <label for="piatto"> elimina {{nome}}</label>
+                </span>
+
+            </span>    
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                    
+                  <button type="submit" name="dolcielimina">elimina dolci</button>
+        </form>
+    </div>
+
+</div>

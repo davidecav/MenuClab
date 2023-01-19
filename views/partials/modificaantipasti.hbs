@@ -1,0 +1,41 @@
+  
+<div class="menuelimina">
+    <button type="button" onclick="funzioneantipasti()" class="btn btn-primary btn-lg">antipasti</button>
+
+
+    <div id="antipasti" style="display: none;" >
+  
+    <form action="" method="post">
+        {{#each antip}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+            </div>
+                                        
+            <span>
+                <span> <h6> {{ingredienti}} </h6></span>
+
+                <span>
+            <input type="checkbox" name="piatto" value="Elimina">
+            <label for="piatto"> elimina {{nome}}</label>
+                </span>
+            </span>    
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                    
+                    <button type="submit" name="antipastielimina">elimina antipasti</button>
+        </form>
+    </div>
+
+</div>

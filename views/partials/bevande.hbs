@@ -1,0 +1,31 @@
+  
+<div class="menuelement">
+    <button type="button" onclick="funzionebevande()" class="btn btn-primary btn-lg">bevande</button>
+
+
+    <div id="bevande" style="display: none;" >
+  
+        {{#each bevandep}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+            </div>
+                                        
+           
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                    
+    </div>
+
+</div>

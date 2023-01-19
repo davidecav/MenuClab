@@ -1,0 +1,33 @@
+  
+<div class="menuelement">
+    <button type="button" onclick="funzionecontorni()" class="btn btn-primary btn-lg">contorni</button>
+
+
+    <div id="contorni" style="display: none;" >
+  
+        {{#each contornip}}
+
+        <div class="piatto">
+            <div>
+
+                <span>{{nome}}</span>
+                <span> - - - - - - - - - - - - - - - - - - - - </span>
+                <span>{{prezzo}} <span>
+            </div>
+                                        
+            <span>
+                <span> <h6> {{ingredienti}} </h6></span>
+            </span>    
+                                        
+            <div>*</div>
+            <div>* * *</div>
+            <div>*</div>
+        </div>
+
+                            
+
+        {{/each}}
+                    
+    </div>
+
+</div>
