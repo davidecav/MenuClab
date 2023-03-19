@@ -28,6 +28,8 @@ router.get("/",async(req,res)=>{
             dolcip:rows[4],
             bevandep:rows[5]
           })}
+
+          
           conn.release()
         })
       }

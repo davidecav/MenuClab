@@ -7,6 +7,7 @@
     color: white;
 }
 .menuelement{    
+    
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;    
@@ -15,13 +16,34 @@
     padding: 5em;
     padding-top: 12px;
     padding-bottom: 12px;
+    
 
 }
 
 .piatto{
     padding-top: 3pc;    
     
-    
+/*    
+    border-radius: 2px;
+    box-shadow: 0 6px 5px -5px rgba(0,0,0,0.3);
+    */
+/*
+    display: block;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #999;
+    background-color: #FFF;
+    */
+    /*
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #FFF;
+    margin: -10px 0 0 30px;
+    */
 }
 
 .sovramenu{  
@@ -32,8 +54,4 @@
 
 }
 
-.bottonecart{
 
-    background: #4d4;
-
-}
